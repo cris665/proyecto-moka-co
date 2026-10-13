@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tostaduría Moka & Co. - Café de especialidad y grano artesanal.">
+    <title>Tostaduría Moka & Co. | Café de Especialidad</title>
+    <!-- Bootstrap 5.3 CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet">
+    <!-- Estilos Personalizados -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <a class="skip-link" href="#contenido">Saltar al contenido principal</a>
+
+    <!-- Navegación -->
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark-custom" aria-label="Navegación principal">
+            <div class="container">
+                <a class="navbar-brand fw-bold" href="#inicio">Moka & Co.</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alternar navegación">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#nosotros">Empresa</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#productos">Productos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#galeria">Galería</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#promociones">Promociones</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main id="contenido">
+        <!-- Inicio / Hero -->
+        <section id="inicio" class="hero-section text-center text-white d-flex align-items-center">
+            <div class="container py-5">
+                <h1 class="display-4 fw-bold">Café Artesanal Tostado con Pasión</h1>
+                <p class="lead mb-4">Descubre el sabor auténtico de nuestros granos de origen único.</p>
+                <p class="hero-disclosure">Proyecto académico · Empresa y datos de ejemplo, no reales</p>
+                <a href="#productos" class="btn btn-warning btn-lg fw-semibold">Ver Catálogo</a>
+            </div>
+        </section>
+
+        <!-- Información de la Empresa -->
+        <section id="nosotros" class="py-5 bg-light">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6 mb-4 mb-md-0">
+                        <img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=600&q=80" class="img-fluid rounded shadow" alt="Taza de café recién preparado sobre mesa de madera">
+                    </div>
+                    <div class="col-md-6">
+                        <h2 class="h1 mb-3 text-brand">Nuestra Historia</h2>
+                        <p>En el concepto de Moka &amp; Co. se seleccionan granos de origen y se tuestan para resaltar notas aromáticas y perfiles de sabor.</p>
+                        <p class="text-muted">Fundada en 2021, Moka &amp; Co. es un punto de encuentro para la comunidad amante del buen café.</p>
+                        <p class="small text-muted">Historia, origen y prácticas de marca simulados para este proyecto académico.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Productos o Servicios -->
+        <section id="productos" class="py-5">
+            <div class="container">
+                <h2 class="text-center mb-5 text-brand">Nuestros Productos</h2>
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="card h-100 shadow-sm border-0">
+                            <img src="https://images.unsplash.com/photo-1559056199-641a0ac8b55e?auto=format&fit=crop&w=400&q=80" class="card-img-top" alt="Empaque de bolsa de café en grano">
+                            <div class="card-body">
+                                <h3 class="card-title h5">Café Espresso Blend</h3>
+                                <p class="card-text">Notas a chocolate amargo y avellanas. Tostado medio-oscuro perfecto para máquinas espresso.</p>
+                                <span class="fw-bold text-success">$15.00 USD <span class="small">(precio de ejemplo)</span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100 shadow-sm border-0">
+                            <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=400&q=80" class="card-img-top" alt="Taza de café filtrado método V60">
+                            <div class="card-body">
+                                <h3 class="card-title h5">Café Origen Colombia</h3>
+                                <p class="card-text">Notas cítricas y dulzor a panela. Ideal para métodos de extracción manual como V60 o Chemex.</p>
+                                <span class="fw-bold text-success">$18.00 USD <span class="small">(precio de ejemplo)</span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100 shadow-sm border-0">
+                            <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=400&q=80" class="card-img-top" alt="Taza de cappuccino con arte latte">
+                            <div class="card-body">
+                                <h3 class="card-title h5">Barra de Bebidas</h3>
+                                <p class="card-text">Una propuesta de bebidas de especialidad preparadas al momento por el equipo de barra (concepto simulado).</p>
+                                <span class="fw-bold text-success">Desde $4.00 USD <span class="small">(precio de ejemplo)</span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Galería Visual -->
+        <section id="galeria" class="py-5 bg-light">
+            <div class="container">
+                <h2 class="text-center mb-5 text-brand">Galería del Local</h2>
+                <div class="row g-3">
+                    <div class="col-6 col-md-3">
+                        <img src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=400&q=80" class="img-fluid rounded shadow-sm gallery-img" alt="Interior acogedor de la cafetería con iluminación cálida">
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=400&q=80" class="img-fluid rounded shadow-sm gallery-img" alt="Barista vertiendo leche para arte latte">
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <img src="https://images.unsplash.com/photo-1447933601403-0c6688de566e?auto=format&fit=crop&w=400&q=80" class="img-fluid rounded shadow-sm gallery-img" alt="Granos de café tostados recién salidos de la máquina">
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=400&q=80" class="img-fluid rounded shadow-sm gallery-img" alt="Postre artesanal servido junto a una taza de café espresso">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Promociones -->
+        <section id="promociones" class="py-5 text-white bg-accent">
+            <div class="container text-center">
+                <h2 class="mb-3">Promoción de ejemplo</h2>
+                <p class="fs-5 mb-4">En este escenario de ejemplo, se propone un <strong>20% de descuento</strong> en un empaque de café en grano de 500 g.</p>
+                <a href="#contacto" class="btn btn-outline-light btn-lg">Reclamar Oferta</a>
+            </div>
+        </section>
+
+        <!-- Contacto -->
+        <section id="contacto" class="py-5">
+            <div class="container">
+                <h2 class="text-center mb-5 text-brand">Contacto</h2>
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <h3>Visítanos</h3>
+                        <p><strong>Dirección:</strong> Av. Principal #123, Colonia Centro <span class="text-muted">(dato simulado)</span></p>
+                        <p><strong>Teléfono:</strong> <a href="tel:+525551234567">+52 555 123 4567</a> <span class="text-muted">(dato simulado)</span></p>
+                        <p><strong>Horario:</strong> Lunes a sábado, 8:00 a 20:00 <span class="text-muted">(dato simulado)</span></p>
+                        <p><strong>Correo:</strong> <a href="mailto:hola@mokayco.example">hola@mokayco.example</a> <span class="text-muted">(dato simulado)</span></p>
+                    </div>
+                    <div class="col-md-6">
+                        <form id="contactForm" novalidate aria-describedby="formNote">
+                            <div class="mb-3">
+                                <label for="nombre" class="form-label">Nombre Completo</label>
+                                <input type="text" class="form-control" id="nombre" name="nombre" autocomplete="name" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Correo Electrónico</label>
+                                <input type="email" class="form-control" id="email" name="email" autocomplete="email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensaje" class="form-label">Mensaje</label>
+                                <textarea class="form-control" id="mensaje" name="mensaje" rows="4" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-dark-custom w-100">Enviar Mensaje</button>
+                            <p id="formNote" class="form-text">Demostración académica: el formulario no transmite ni almacena información.</p>
+                            <div id="formAlert" class="mt-3 d-none" role="status" aria-live="polite" tabindex="-1"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer class="bg-dark text-white py-4 text-center">
+        <div class="container">
+            <p class="mb-0">&copy; 2026 Tostaduría Moka &amp; Co. <span class="small">Proyecto académico · Marca y datos simulados.</span></p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5.3 JS Bundle CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Script Personalizado -->
+    <script src="js/main.js"></script>
+</body>
+</html>
